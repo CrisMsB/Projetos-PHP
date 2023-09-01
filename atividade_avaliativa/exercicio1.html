@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Matrizes em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Matrizes em PHP </h1>
+
+ <form action="recebe-dados.php" method="post">
+ 
+ <!--Primeiro medicamento--> 
+ <fieldset>
+   <legend> Registro de medicamentos - CTDS - PRW </legend>
+
+   <label class="alinha"> Nome do medicamento: </label>
+   <input type="text" name="nome-medicamento1" autofocus> <br>
+
+   <label class="alinha"> Código do medicamento: </label>
+   <input type="text" name="codigo-medicamento1"> <br>
+
+   <label class="alinha"> Preço de venda: </label>
+   <input type="number" name="preco-medicamento1" step="0.01"> <br>
+  </fieldset>
+
+  <!--Segundo medicamento--> 
+ <fieldset>
+   <legend> Registro de medicamentos - CTDS - PRW </legend>
+
+   <label class="alinha"> Nome do medicamento: </label>
+   <input type="text" name="nome-medicamento2"> <br>
+
+   <label class="alinha"> Código do medicamento: </label>
+   <input type="text" name="codigo-medicamento2"> <br>
+
+   <label class="alinha"> Preço de venda: </label>
+   <input type="number" name="preco-medicamento2" step="0.01"> <br>
+  </fieldset>
+
+  <!--Terceiro medicamento--> 
+ <fieldset>
+   <legend> Registro de medicamentos - CTDS - PRW </legend>
+
+   <label class="alinha"> Nome do medicamento: </label>
+   <input type="text" name="nome-medicamento3"> <br>
+
+   <label class="alinha"> Código do medicamento: </label>
+   <input type="text" name="codigo-medicamento3"> <br>
+
+   <label class="alinha"> Preço de venda: </label>
+   <input type="number" name="preco-medicamento3" step="0.01"> <br>
+  </fieldset>
+
+   <fieldset>
+    <legend> Módulo de pesquisa de medicamento </legend>
+
+    <label class="alinha"> Forneça o código do medicamento para pesquisa: </label>
+    <input type="text" name="pesquisa-medicamento">
+   </fieldset>
+   
+   <button name="enviar-dados"> Consultar </button>
+  </fieldset>
+ </form>  
+</body> 
+</html>

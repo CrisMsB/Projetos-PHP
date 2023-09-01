@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP - listaL1 - exercício9 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Supermercados AAA - processamento de vendas </legend>
+
+   <label class="alinha"> Forneça o valor da compra do cliente: </label>
+   <input type="number" name="valor-compra" autofocus  step="0.01" min="0" required> <br>
+
+   <label> Forma de pagamento: </label> <br>
+   <input type="radio" name="forma-pagamento" value="À vista"> <label> Pagamento à vista </label> <br>
+
+   <input type="radio" name="forma-pagamento" value="A prazo"> <label> Pagamento a prazo </label> <br> <br>
+
+   <input type="checkbox" name="pagamento-cartao[]"> <label> Marque esta opção se o cliente PAGOU a compra com cartão Visa </label> <br>
+   
+   <button> Mostrar resultado do processamento da compra </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

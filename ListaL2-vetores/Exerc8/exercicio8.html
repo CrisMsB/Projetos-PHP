@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Tratamento de vetores em PHP - listaL2 - exercício8 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Farmácias AAA - carrinho de compras </legend>
+
+   <label> Escolha os medicamentos que você quer comprar: </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Paracetamol"> <label> Paracetamol </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Dipirona"> <label> Dipirona </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Rivotril"> <label> Rivotril </label> <br> <br> <br>
+
+   <input type="checkbox" name="idade"> <label> Marque esta opção se o cliente tem 60 anos ou mais. </label> <br>
+
+   <button> Mostrar valor final da compra </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

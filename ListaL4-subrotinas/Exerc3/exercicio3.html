@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Subprogramação em PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Subrotinas e funções de usuário com PHP - listaL4 - exercício 3 </h1>
+ <form action="recebe-dados.php" method="post">
+  
+  <fieldset>
+   <legend> Conversor de Escala Termométrica com Subprogramação em PHP </legend>
+
+    <label class="alinha">Forneca um valor númerico: </label>
+    <input type="number" name="temperatura" step="0.1"><br>
+
+    <label class="alinha">Escala Termométrica para conversão: </label><br>
+    <input type="radio" name="escala" value="deFparaC" checked> <label> Converter a temperatura dada de fahrenheit para Celsius</label> <br>
+    <input type="radio" name="escala" value="deCparaF"> <label> Converter a temperatura dada de Celsius para fahrenheit</label> <br>
+
+    <button> Converter temperatura </button>
+  </fieldset>
+ </form>    
+</body> 
+</html>

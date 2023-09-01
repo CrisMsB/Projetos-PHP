@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Tratamento de vetores em PHP - listaL3 - exercício2 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Rendimento semestral do aluno 1 </legend>
+
+   <label class="alinha"> Nome do aluno: </label>
+   <input type="text" name="nome-do-aluno1" autofocus placeholder="Forneça o nome do aluno" id="maior"> <br>
+
+   <label class="alinha"> Nota de PRW: </label>
+   <input type="number" name="nota1" min="0" max="10" step="0.1"> <br>
+
+   <label class="alinha"> Matrícula do aluno: </label>
+   <input type="text" name="matric1"> 
+  </fieldset>
+
+  <fieldset>
+    <legend> Rendimento semestral do aluno 2 </legend>
+ 
+    <label class="alinha"> Nome do aluno: </label>
+    <input type="text" name="nome-do-aluno2" placeholder="Forneça o nome do aluno" id="maior"> <br>
+ 
+    <label class="alinha"> Nota de PRW: </label>
+    <input type="number" name="nota2" min="0" max="10" step="0.1"> <br>
+
+    <label class="alinha"> Matrícula do aluno: </label>
+   <input type="text" name="matric2"> 
+
+   </fieldset>
+
+   <fieldset>
+    <legend> Rendimento semestral do aluno 3 </legend>
+ 
+    <label class="alinha"> Nome do aluno: </label>
+    <input type="text" name="nome-do-aluno3" placeholder="Forneça o nome do aluno" id="maior"> <br>
+ 
+    <label class="alinha"> Nota de PRW: </label>
+    <input type="number" name="nota3" min="0" max="10" step="0.1"> <br>
+
+    <label class="alinha"> Matrícula do aluno: </label>
+   <input type="text" name="matric3"> 
+
+
+   </fieldset>
+
+  <button> Processar dados da matriz </button>
+
+ </form>    
+</body> 
+</html> 

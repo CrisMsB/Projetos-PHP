@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Tratamento de vetores em PHP - listaL2 - exercício8 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Super-Mercados AAA - Carrinho de Compras Online </legend>
+
+   <label> Escolha os Alimentos que você quer comprar: </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Arroz"> <label> Arroz </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Feijão"> <label> Feijão </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Macarrão"> <label> Farinha </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Pão"> <label> Pão </label> <br> <br> <br>
+
+
+   <input type="checkbox" name="cartao"> <label> Marque esta opção se o cliente pagou com o cartão fidelidade (5% de desconto). </label> <br>
+
+   <button> Mostrar valor final da compra </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

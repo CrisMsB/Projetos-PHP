@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Tratamento de vetores em PHP - listaL2 - exercício4 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Simulando um carrinho de compras simplicado com vetores em PHP </legend>
+
+   <label class="alinha"> Escolha os produtos para compra: </label> <br>
+
+   <!-- Lembre-se de usar um par de colchetes [] após o name de cada checkbox, para que o PHP receba do navegador TODOS os produtos marcados para compra no formulário. Sem os colchetes, o PHP recebe do navegador apenas o value do PRIMEIRO produto marcado-->
+
+   <input type="checkbox" name="prod[]" value="Monitor"> <label> Monitor de computador </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Teclado"> <label> Teclado de computador </label> <br>
+
+   <input type="checkbox" name="prod[]" value="Mouse"> <label> Mouse </label> <br>
+
+   <button> Mostrar valor final da compra </button>
+
+ </form>    
+</body> 
+</html> 
