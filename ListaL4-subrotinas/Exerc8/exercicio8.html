@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Subprogramação em PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Subrotinas e funções de usuário com PHP - listaL4 - exercício 8 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> CTDS-PRW - rendimento do aluno </legend>
+
+   <label class="alinha"> Nota1: </label>
+   <input type="number" name="nota1" step="0.1" max="10" min="0" autofocus> <br>
+
+   <label class="alinha"> Nota2: </label>
+   <input type="number" name="nota2" step="0.1" max="10" min="0"> <br>
+
+   <label class="alinha"> Nota3: </label>
+   <input type="number" name="nota3" step="0.1" max="10" min="0"> <br> <br>
+
+   <label> Escolha o tipo de média a ser calculada: </label> <br>
+   <input type="radio" name="media" value="simples" checked> <label> Média aitmética simples </label> <br>
+
+   <input type="radio" name="media" value="ponderada"> <label> Média aritmética ponderada </label> <br>
+
+   <button> Calcular média </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

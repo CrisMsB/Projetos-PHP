@@ -16,10 +16,10 @@ h1 {
 }
 
 fieldset {
- width: 50%;
+ width: 55%;
  background-color: rgb(240, 240, 240);
  margin: auto; /*centralização automática*/
- margin-bottom: 30px;
+ padding-top: 30px;
 }
 
 legend {
@@ -27,13 +27,13 @@ legend {
 }
 
 label.alinha {
- width: 200px;
+ width: 350px;
  display: inline-block; /*esta propriedade permite que apliquemos um alinhamento especial dos labels em relação a suas caixas de texto*/
  text-align: right;
  margin-bottom: 10px;
 }
 
-input.maior {
+input#maior {
  width: 270px;
 }
 
@@ -56,33 +56,14 @@ p {
  border: 1px solid #000;
  width: 50%;
  text-align: center;
- box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.5);
+ box-shadow: 5px 5px 5px rgba(40, 40, 40, 0.5);
  margin: auto;
 }
 
 span {
- color: rgb(50,50,50);
+ color: rgb(38, 176, 82);
  font-style: italic; /*itálico na fonte*/
-}
-
-table {
- width: 50%;
- border: 1px solid #fff;
- background: rgba(50, 50, 50, 0.1);
- border-spacing: 0;
- margin: 30px auto;
-}
-
-td, th {
- border: 1px solid #fff;
-}
-
-th {
- background-color: rgba(209, 224, 209, 0.7);
-}
-
-td {
- text-align: center;
+ font-weight: bold;
 }
 
 

@@ -45,6 +45,7 @@ button {
  margin: auto;
  display: block; /*converter botão de inline para bloco, para a centralização automática funcionar*/
  margin-top: 30px;
+ margin-bottom: 30px;
 }
 
 input {

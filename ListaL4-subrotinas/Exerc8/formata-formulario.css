@@ -20,6 +20,8 @@ fieldset {
  background-color: rgb(240, 240, 240);
  margin: auto; /*centralização automática*/
  margin-bottom: 30px;
+ padding-top: 30px;
+ padding-left: 30px;
 }
 
 legend {
