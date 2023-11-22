@@ -1,0 +1,121 @@
+/* Importação de uma fonte do Google Fonts chamada Imbue */
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap');
+
+/* Estilos para o elemento <body> */
+body {
+    font-family: Imbue; /* Define a fonte Imbue para o texto no corpo do documento */
+    margin: 0; /* Remove margens padrão do corpo */
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=996&t=st=1694713310~exp=1694713910~hmac=f9bcc666cd201f77ecc016aaf2d29011044417f1a4cb6fd20f19362f2c9a5431);
+    image-rendering: auto;
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a área visível */
+}
+
+/* Estilos para o elemento <h1> (cabeçalho principal) */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 1px solid #000000; /* Adiciona uma linha inferior */
+    background-color: rgb(255, 255, 255); /* Define a cor de fundo branca */
+    text-shadow: 1px 1px 1px rgb(255, 255, 255); /* Adiciona sombra ao texto */
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255); /* Adiciona sombra à caixa do elemento */
+    margin: 0;
+    margin-bottom: 40px; /* Define uma margem inferior maior */
+}
+
+/* Estilos para o elemento <fieldset> */
+fieldset {
+    width: 500px; /* Define a largura do campo de conjunto */
+    margin: auto; /* Centraliza horizontalmente no container pai */
+    background-color: #ffffff; /* Define a cor de fundo branca */
+    padding-top: 10px; /* Adiciona espaço superior */
+}
+
+/* Estilos para rótulos com a classe 'alinha' */
+label.alinha {
+    display: inline-block; /* Torna os rótulos elementos de bloco inline */
+    width: 150px; /* Define uma largura fixa para os rótulos */
+    text-align: right; /* Alinha o texto à direita dos rótulos */
+    margin-bottom: 10px; /* Adiciona uma margem inferior */
+}
+
+/* Estilos para o elemento de entrada com o atributo 'name' igual a 'aluno' */
+input[name="aluno"] {
+    width: 350px; /* Define a largura da entrada do aluno */
+}
+
+/* Estilos para todos os elementos de entrada */
+input {
+    font-family: Imbue; /* Define a fonte Imbue para todas as entradas */
+}
+
+/* Estilos para a classe 'botao' usada em um elemento <div> */
+div.botao {
+    text-align: center; /* Centraliza o texto do conteúdo da div */
+}
+
+/* Estilos para botões */
+button {
+    font-family: Imbue; /* Define a fonte Imbue para os botões */
+    width: 250px; /* Define a largura dos botões */
+    margin-right: 10px; /* Adiciona uma margem à direita dos botões */
+    height: 40px; /* Define a altura dos botões */
+    font-size: 20px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    margin: auto; /* Centraliza horizontalmente */
+    display: block; /* Torna os botões elementos de bloco */
+    margin-top: 30px; /* Adiciona uma margem superior maior */
+}
+
+/* Estilos para parágrafos */
+p {
+    border: 1px solid #000000; /* Adiciona uma borda preta de 1px */
+    width: 60%; /* Define a largura do parágrafo */
+    margin: 20px auto; /* Centraliza horizontalmente com margem superior e inferior */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para elementos <span> */
+span {
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    color: #000000; /* Define a cor do texto como preta */
+}
+
+/* Estilos para tabelas */
+table {
+    width: 50%; /* Define a largura da tabela */
+    margin: 30px auto; /* Centraliza horizontalmente com margem superior e inferior */
+    border: 1px solid #ffffff; /* Adiciona uma borda branca de 1px */
+    background-color: #ffffff; /* Define a cor de fundo branca */
+}
+
+/* Estilos para células de tabela (td) e cabeçalhos de tabela (th) */
+td, th {
+    border: 1px solid #000000; /* Adiciona uma borda preta de 1px */
+}
+
+/* Estilos para cabeçalhos de tabela (th) */
+th {
+    background: #000000; /* Define o fundo como preto */
+    color: #fff; /* Define a cor do texto como branca */
+}
+
+/* Estilos para células de tabela (td) */
+td {
+    text-align: center; /* Centraliza o texto nas células da tabela */
+}
+
+/* Estilos para links (âncoras) */
+a {
+    color: red; /* Define a cor do link como vermelha */
+    text-align: center; /* Centraliza o texto do link */
+    font-size: 22px; /* Define o tamanho da fonte do link */
+    display: block; /* Torna os links elementos de bloco */
+}
+
+/* Estilos para áreas de texto */
+textarea {
+    font-family: Imbue; /* Define a fonte Imbue para áreas de texto */
+    width: 300px; /* Define a largura da área de texto */
+    height: 100px; /* Define a altura da área de texto */
+    resize: none; /* Desativa a alça de redimensionamento */
+    vertical-align: top; /* Alinha o conteúdo no topo da área de texto */
+}
