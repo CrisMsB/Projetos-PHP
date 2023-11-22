@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Integrando Banco de Dados com PHP </title> 
+  <link rel="stylesheet" href="./../css/formata-banco.css">
+</head> 
+
+<body> 
+ <h1> Integração de banco de dados com PHP - exercício 5 </h1>
+ <form action="./../php/recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Banco de dados + PHP - Fármacias AAA controle de venda de medicamentos </legend>
+
+   <label class="alinha"> Nome: </label>
+   <input type="text" name="nome" autofocus> <br>
+
+   <label class="alinha"> Preço: </label>
+   <input type="number" name="preco" min="0" step="0.01"> <br>
+
+   <label class="alinha"> Data de validade: </label>
+   <input type="date" name="validade"> <br> 
+
+   <button name="cadastrar"> Cadastrar medicamento </button>
+  </fieldset>
+
+  <fieldset>
+    <legend> Outras operações sobre o banco de dados </legend>
+    <label> Escolha a operação desejada: </label>
+    <select name="operacao">
+      <option value="1"> Tabular dados </option>
+      <option value="2"> Excluir medicamentos </option>
+      <option value="3"> Calcular faturamento </option>
+      <option value="4"> Relacionar medicamento mais caro </option>
+    </select> <br> <br> <br>
+    <button name="executar-operacao"> Executar operação selecionada </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

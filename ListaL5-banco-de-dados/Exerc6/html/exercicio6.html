@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Integrando Banco de Dados com PHP </title> 
+  <link rel="stylesheet" href="./../css/formata-banco.css">
+</head> 
+
+<body> 
+ <h1> Integração de banco de dados com PHP - exercício 4 </h1>
+ <form action="./../php/recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Módulo de cadastro de médicos </legend>
+
+   <label class="alinha"> Nome do médico: </label>
+   <input type="text" name="nome-medico" autofocus> <br>
+
+   <label class="alinha"> CRM (chave primária): </label>
+   <input type="text" name="crm"> <br>
+   <button name="cadastrar-medico"> Cadastrar médico </button>
+  </fieldset>
+
+  <fieldset>
+    <legend> Módulo de cadastro de pacientes </legend>
+ 
+    <label class="alinha"> Nome do paciente: </label>
+    <input type="text" name="nome-paciente"> <br>
+ 
+    <label class="alinha"> CRM do médico que o atendeu: </label>
+    <input type="text" name="crm-atendimento"> <br>
+
+    <label class="alinha"> Data da internação: </label>
+    <input type="date" name="data-internacao"> <br>
+
+    <button name="cadastrar-paciente"> Cadastrar paciente </button>
+  </fieldset>
+
+  <fieldset>
+    <legend> Pesquisa de pacientes - módulo 1 </legend>
+ 
+    <label class="alinha"> Nome do médico pesquisado: </label>
+    <input type="text" name="pesquisa-nome-medico"> <br>
+
+    <button name="pesquisa-medico1"> Mostrar número de pacientes atendidos </button>
+  </fieldset>
+
+  <fieldset>
+    <legend> Pesquisa de pacientes - módulo 2 </legend>
+ 
+    <label class="alinha"> Nome do médico pesquisado: </label>
+    <input type="text" name="pesquisa-nome-medico2"> <br>
+
+    <label class="alinha"> Data de atendimento: </label>
+    <input type="date" name="data"> <br>
+
+    <button name="pesquisa-medico2"> Mostrar relação de pacientes atendidos </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 
