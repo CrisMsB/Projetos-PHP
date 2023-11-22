@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Integrando Banco de Dados com PHP </title> 
+  <link rel="stylesheet" href="./../css/formata-banco.css">
+</head> 
+
+<body> 
+ <h1> Integração de banco de dados com PHP - exercício 1 </h1>
+ <form action="./../php/recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Banco de dados + PHP - dados cadastrais do aluno </legend>
+
+   <label class="alinha"> Aluno: </label>
+   <input type="text" name="aluno" autofocus> <br>
+
+   <label class="alinha"> Matrícula (chave primária): </label>
+   <input type="text" name="matric"> <br>
+
+   <label class="alinha"> Média de PRW: </label>
+   <input type="number" name="media" min="0" max="10" step="0.1"> <br>
+
+   <div class="botao">
+    <button name="cadastrar"> Cadastrar dados do aluno </button>
+    <button name="tabular-dados"> Tabular dados dos alunos </button>
+    <button name="contar-aprovados"> Mostrar número de alunos aprovados </button>
+   </div>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

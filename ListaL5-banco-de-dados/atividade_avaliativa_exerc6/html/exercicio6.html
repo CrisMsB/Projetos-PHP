@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Integração de Banco de Dados com PHP</title>
+  <link rel="stylesheet" href="./../css/formata-banco.css">
+</head>
+
+<body>
+  <h1>Integração de banco de dados com PHP - exercício 6</h1>
+  <form action="./../php/recebe-dados.php" method="post">
+
+    <fieldset>
+      <legend>Módulo de cadastro de Aluno</legend>
+
+      <label class="alinha">Matrícula:</label>
+      <input type="text" name="matricula" autofocus><br>
+
+      <label class="alinha">Nome do Aluno:</label>
+      <input type="text" name="nome-aluno" ><br>
+
+      <button name="cadastrar-aluno">Cadastrar Aluno</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Módulo de cadastro de UC</legend>
+      
+      <label class="alinha">Código da UC:</label>
+      <input type="text" name="codigo-Uc" ><br>
+
+      <label class="alinha">Nome da UC:</label>
+      <input type="text" name="nome-Uc" ><br>
+
+      <label class="alinha">Matrícula do Aluno:</label>
+      <input type="text" name="matricula1"><br>
+
+      <button name="cadastrar-unidade-curricular">Cadastrar Unidade Curricular</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pesquisa de Aluno - módulo 1</legend>
+
+      <label class="alinha">Nome do aluno pesquisado:</label>
+      <input type="text" name="pesquisa-nome-aluno"><br>
+
+      <button name="pesquisa-aluno">Mostrar todas UC em que o aluno está matriculado</button>
+    </fieldset>
+
+  </form>
+</body>
+</html>
