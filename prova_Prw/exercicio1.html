@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Matrizes em PHP</title>
+  <link rel="stylesheet" href="formata-formulario.css">
+</head>
+
+<body>
+  <h1>Exercicios de Reforço Prova</h1>
+
+  <form action="recebe-dados.php" method="post">
+
+    <!-- Primeiro livro -->
+    <fieldset>
+      <legend>Cadastro do livro 1</legend>
+
+      <label class="alinha">Cadastro do Autor: </label>
+      <input type="text" name="nome-autor1" autofocus><br>
+
+      <label class="alinha">Código do ISBN: </label>
+      <input type="text" name="codigo-ISBN1"><br>
+
+      <label class="alinha">Preço do livro: </label>
+      <input type="number" name="preco-livro1" step="0.01"><br>
+    </fieldset>
+
+    <!-- Segundo livro -->
+    <fieldset>
+      <legend>Cadastro do livro 2</legend>
+
+      <label class="alinha">Cadastro do Autor: </label>
+      <input type="text" name="nome-autor2" autofocus><br>
+
+      <label class="alinha">Código do ISBN: </label>
+      <input type="text" name="codigo-ISBN2"><br>
+
+      <label class="alinha">Preço do livro: </label>
+      <input type="number" name="preco-livro2" step="0.01"><br>
+    </fieldset>
+
+    <!-- Terceiro livro -->
+    <fieldset>
+      <legend>Cadastro do livro 3</legend>
+
+      <label class="alinha">Cadastro do Autor: </label>
+      <input type="text" name="nome-autor3" autofocus><br>
+
+      <label class="alinha">Código do ISBN: </label>
+      <input type="text" name="codigo-ISBN3"><br>
+
+      <label class="alinha">Preço do livro: </label>
+      <input type="number" name="preco-livro3" step="0.01"><br>
+    </fieldset>
+
+    <fieldset>
+      <button type="submit" name="registrar-dados">Cadastrar</button>
+    </fieldset>
+
+  </form>
+</body>
+</html>

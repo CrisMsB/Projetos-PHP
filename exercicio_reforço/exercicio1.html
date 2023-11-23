@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Matrizes em PHP</title>
+  <link rel="stylesheet" href="formata-formulario.css">
+</head>
+
+<body>
+  <h1>Exercicios de Reforço Prova</h1>
+
+  <form action="recebe-dados.php" method="post">
+
+    <!-- Primeiro veículo -->
+    <fieldset>
+      <legend>Registro de Veículo 1</legend>
+
+      <label class="alinha">Nome do Fabricante: </label>
+      <input type="text" name="nome-fabricante1" autofocus><br>
+
+      <label class="alinha">Código do Chassi: </label>
+      <input type="text" name="codigo-chassi1"><br>
+
+      <label class="alinha">Preço de Venda: </label>
+      <input type="number" name="preco-veiculo1" step="0.01"><br>
+    </fieldset>
+
+    <!-- Segundo veículo -->
+    <fieldset>
+      <legend>Registro de Veículo 2</legend>
+
+      <label class="alinha">Nome do Fabricante: </label>
+      <input type="text" name="nome-fabricante2"><br>
+
+      <label class="alinha">Código do Chassi: </label>
+      <input type="text" name="codigo-chassi2"><br>
+
+      <label class="alinha">Preço de Venda: </label>
+      <input type="number" name="preco-veiculo2" step="0.01"><br>
+    </fieldset>
+
+    <!-- Terceiro veículo -->
+    <fieldset>
+      <legend>Registro de Veículo 3</legend>
+
+      <label class="alinha">Nome do Fabricante: </label>
+      <input type="text" name="nome-fabricante3"><br>
+
+      <label class="alinha">Código do Chassi: </label>
+      <input type="text" name="codigo-chassi3"><br>
+
+      <label class="alinha">Preço de Venda: </label>
+      <input type="number" name="preco-veiculo3" step="0.01"><br>
+    </fieldset>
+
+    <fieldset>
+      <button type="submit" name="registrar-dados">Consultar</button>
+    </fieldset>
+
+  </form>
+</body>
+</html>
